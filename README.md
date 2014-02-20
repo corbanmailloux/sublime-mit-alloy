@@ -1,4 +1,6 @@
-# Sublime MIT Alloy Syntax Highlighting
+# Sublime Text 3 - MIT Alloy Syntax Highlighting
+### Syntax highlighting for [MIT's Alloy](http://alloy.mit.edu/alloy/index.html) in [Sublime Text 3](http://www.sublimetext.com/3).
+
 
 ## Getting Started
 
