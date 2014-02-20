@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>als</string>
+	</array>
+	<key>name</key>
+	<string>MIT Alloy</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>\/\*</string>
+			<key>comment</key>
+			<string>Block comment</string>
+			<key>end</key>
+			<string>\*\/</string>
+			<key>name</key>
+			<string>comment.block</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Line comment</string>
+			<key>match</key>
+			<string>\/\/.*$</string>
+			<key>name</key>
+			<string>comment.double-slash</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Line comment</string>
+			<key>match</key>
+			<string>\-\-.*$</string>
+			<key>name</key>
+			<string>comment.double-dash</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Invalid characters</string>
+			<key>match</key>
+			<string>(\\|`|\$|%|\?)</string>
+			<key>name</key>
+			<string>invalid.illegal</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>([a-zA-Z])+\[</string>
+			<key>comment</key>
+			<string>Function calls</string>
+			<key>contentName</key>
+			<string>variable.parameter</string>
+			<key>end</key>
+			<string>\]</string>
+			<key>name</key>
+			<string>entity.name.function</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Operators</string>
+			<key>match</key>
+			<string>\b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|sig|abstract|let|fact|pred|fun|assert|pred|extends|run|for|but|disj|disjoint|set|else|sum|module|open|check|enum)\b|(=&gt;|-&gt;|\||&amp;|=|:|~|\.|\^|\*|&lt;:|:&gt;|\+\+|\+|-|!|&amp;&amp;|&lt;=&gt;|\|\|)</string>
+			<key>name</key>
+			<string>keyword.operator</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.MIT_Alloy</string>
+	<key>uuid</key>
+	<string>cc6f9bdf-a539-48d4-9f60-555e8f15ff18</string>
+</dict>
+</plist>

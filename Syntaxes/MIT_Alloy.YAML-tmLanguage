@@ -1,0 +1,41 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: MIT Alloy
+scopeName: source.MIT_Alloy
+fileTypes: [als]
+uuid: cc6f9bdf-a539-48d4-9f60-555e8f15ff18
+
+patterns:
+
+# Comments
+- comment: Block comment
+  name: comment.block
+  begin: \/\*
+  end: \*\/
+
+- comment: Line comment
+  name: comment.double-slash
+  match: \/\/.*$
+
+- comment: Line comment
+  name: comment.double-dash
+  match: \-\-.*$
+
+# Invalids
+- comment: Invalid characters
+  name: invalid.illegal
+  match: (\\|`|\$|%|\?)
+
+# Functions
+- comment: Function calls
+  name: entity.name.function
+  contentName: variable.parameter
+  begin: ([a-zA-Z])+\[
+  end: \]
+
+# Operators
+- comment: Operators
+  name: keyword.operator
+  match: \b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|sig|abstract|let|fact|pred|fun|assert|pred|extends|run|for|but|disj|disjoint|set|else|sum|module|open|check|enum)\b|(=>|->|\||&|=|:|~|\.|\^|\*|<:|:>|\+\+|\+|-|!|&&|<=>|\|\|)
+
+...
