@@ -58,9 +58,33 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>type</string>
+			<key>match</key>
+			<string>\b(fun|fact|pred|assert|enum|sig|module)\b</string>
+			<key>name</key>
+			<string>storage.type</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>modifiers</string>
+			<key>match</key>
+			<string>\b(abstract)\b</string>
+			<key>name</key>
+			<string>storage.modifier</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>integer</string>
+			<key>match</key>
+			<string>\b([0-9])+\b</string>
+			<key>name</key>
+			<string>constant.numeric</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Operators</string>
 			<key>match</key>
-			<string>\b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|sig|abstract|let|fact|pred|fun|assert|pred|extends|run|for|but|disj|disjoint|set|else|sum|module|open|check|enum)\b|(=&gt;|-&gt;|\||&amp;|=|:|~|\.|\^|\*|&lt;:|:&gt;|\+\+|\+|-|!|&amp;&amp;|&lt;=&gt;|\|\|)</string>
+			<string>\b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|let|extends|run|for|but|disj|disjoint|set|else|sum|open|check)\b|(=&gt;|-&gt;|\||&amp;|=|:|~|\.|\^|\*|&lt;:|:&gt;|\+\+|\+|-|!|&amp;&amp;|&lt;=&gt;|\|\|)</string>
 			<key>name</key>
 			<string>keyword.operator</string>
 		</dict>

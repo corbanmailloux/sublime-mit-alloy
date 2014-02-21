@@ -1,4 +1,7 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
+
+# Syntax highlighting for MIT's Alloy
+# Copyright 2014 - Corban Mailloux
 ---
 name: MIT Alloy
 scopeName: source.MIT_Alloy
@@ -33,9 +36,23 @@ patterns:
   begin: ([a-zA-Z])+\[
   end: \]
 
+# Types
+- comment: type
+  name: storage.type
+  match: \b(fun|fact|pred|assert|enum|sig|module)\b
+
+- comment: modifiers
+  name: storage.modifier
+  match: \b(abstract)\b
+
+# Constants
+- comment: integer
+  name: constant.numeric
+  match: \b([0-9])+\b
+
 # Operators
 - comment: Operators
   name: keyword.operator
-  match: \b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|sig|abstract|let|fact|pred|fun|assert|pred|extends|run|for|but|disj|disjoint|set|else|sum|module|open|check|enum)\b|(=>|->|\||&|=|:|~|\.|\^|\*|<:|:>|\+\+|\+|-|!|&&|<=>|\|\|)
+  match: \b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|let|extends|run|for|but|disj|disjoint|set|else|sum|open|check)\b|(=>|->|\||&|=|:|~|\.|\^|\*|<:|:>|\+\+|\+|-|!|&&|<=>|\|\|)
 
 ...
