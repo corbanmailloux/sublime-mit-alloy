@@ -1,4 +1,5 @@
 # Sublime Text 3 - MIT Alloy Syntax Highlighting
+
 ### Syntax highlighting for [MIT's Alloy](http://alloy.mit.edu/alloy/index.html) in [Sublime Text 3](http://www.sublimetext.com/3).
 
 
@@ -17,7 +18,7 @@ git clone https://github.com/corbanmailloux/sublime-mit-alloy.git "sublime-mit-a
 of the following methods:
 
 * Select from the list of supported languages in your status bar at the bottom right corner of your editor
-* `ctrl + shift + p` and search for "MIT Alloy"
+* <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and search for "MIT Alloy"
 
 ### 3. Make "MIT Alloy" the default
 To make `MIT Alloy` the default highlighting for the current extension:
@@ -40,4 +41,3 @@ To make `MIT Alloy` the default highlighting for the current extension:
 Copyright 2014 Corban Mailloux
 
 [MIT License](LICENSE-MIT)
-
