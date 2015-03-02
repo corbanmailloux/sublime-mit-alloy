@@ -4,7 +4,7 @@
 # Copyright 2014 - Corban Mailloux
 ---
 name: MIT Alloy
-scopeName: source.MIT_Alloy
+scopeName: source.mit_alloy
 fileTypes: [als]
 uuid: cc6f9bdf-a539-48d4-9f60-555e8f15ff18
 
