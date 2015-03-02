@@ -13,16 +13,16 @@ patterns:
 # Comments
 - comment: Block comment
   name: comment.block
-  begin: \/\*
-  end: \*\/
+  begin: /\*
+  end: \*/
 
 - comment: Line comment
   name: comment.double-slash
-  match: \/\/.*$
+  match: //.*$
 
 - comment: Line comment
   name: comment.double-dash
-  match: \-\-.*$
+  match: --.*$
 
 # Invalids
 - comment: Invalid characters

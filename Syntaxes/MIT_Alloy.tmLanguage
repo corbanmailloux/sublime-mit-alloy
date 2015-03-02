@@ -12,11 +12,11 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>\/\*</string>
+			<string>/\*</string>
 			<key>comment</key>
 			<string>Block comment</string>
 			<key>end</key>
-			<string>\*\/</string>
+			<string>\*/</string>
 			<key>name</key>
 			<string>comment.block</string>
 		</dict>
@@ -24,7 +24,7 @@
 			<key>comment</key>
 			<string>Line comment</string>
 			<key>match</key>
-			<string>\/\/.*$</string>
+			<string>//.*$</string>
 			<key>name</key>
 			<string>comment.double-slash</string>
 		</dict>
@@ -32,7 +32,7 @@
 			<key>comment</key>
 			<string>Line comment</string>
 			<key>match</key>
-			<string>\-\-.*$</string>
+			<string>--.*$</string>
 			<key>name</key>
 			<string>comment.double-dash</string>
 		</dict>
