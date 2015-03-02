@@ -9,7 +9,7 @@
 
 1. Open Sublime Text's Command Palette (default: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>)
 2. Type `install` and select `Package Control: Install Package`
-3. Type `mit alloy` and select "MIT_Alloy" to install to package.
+3. Type `mit alloy` and select "MIT_Alloy" to install the package.
 
 ## Manual Installation
 
