@@ -7,7 +7,7 @@
 
 ### 1. Installation
 
-#### (Recommended) Automatic Install using [Sublime Text Package Control](https://packagecontrol.io/)
+#### (Recommended) Automatic Installation using [Sublime Text Package Control](https://packagecontrol.io/)
 
 1. Open Sublime Text's Command Palette (default: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>)
 2. Type `install` and select `Package Control: Install Package`
