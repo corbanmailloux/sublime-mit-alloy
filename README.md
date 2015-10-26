@@ -5,15 +5,15 @@
 
 ## Getting Started
 
-### (Recommended Method) Install the package using [Sublime Text Package Control](https://packagecontrol.io/).
+### 1. Installation
+
+#### (Recommended) Automatic Install using [Sublime Text Package Control](https://packagecontrol.io/)
 
 1. Open Sublime Text's Command Palette (default: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>)
 2. Type `install` and select `Package Control: Install Package`
 3. Type `mit alloy` and select "MIT_Alloy" to install the package.
 
-## Manual Installation
-
-### 1. Installation
+#### Manual Installation
 
 Go to `Preferences -> Browse Packages`, and then either download and unzip this plugin into that directory, or:
 
