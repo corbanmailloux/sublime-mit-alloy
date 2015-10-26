@@ -33,7 +33,7 @@ patterns:
 - comment: Function calls
   name: entity.name.function
   contentName: variable.parameter
-  begin: ([a-zA-Z_])+\[
+  begin: ([a-zA-Z_])+\s*\[
   end: \]
 
 # Types

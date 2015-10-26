@@ -46,7 +46,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>([a-zA-Z_])+\[</string>
+			<string>([a-zA-Z_])+\s*\[</string>
 			<key>comment</key>
 			<string>Function calls</string>
 			<key>contentName</key>
