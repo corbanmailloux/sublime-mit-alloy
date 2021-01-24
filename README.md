@@ -40,8 +40,8 @@ To make `MIT Alloy` the default highlighting for the current extension:
 
 **Corban Mailloux**
 
-+ [http://corb.co](http://corb.co)
-+ [http://twitter.com/corbco](http://twitter.com/corbco)
++ [https://corb.co](https://corb.co)
++ [https://twitter.com/corbco](https://twitter.com/corbco)
 + [http://github.com/corbanmailloux](https://github.com/corbanmailloux)
 
 
