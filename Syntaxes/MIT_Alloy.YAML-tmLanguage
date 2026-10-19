@@ -43,7 +43,15 @@ patterns:
 
 - comment: modifiers
   name: storage.modifier
-  match: \b(abstract)\b
+  match: \b(abstract|private|var)\b
+
+- comment: built-in types
+  name: support.type
+  match: \b(Int|String|seq)\b
+
+- comment: this
+  name: variable.language
+  match: \bthis\b
 
 # Constants
 - comment: integer
@@ -53,6 +61,6 @@ patterns:
 # Operators
 - comment: Operators
   name: keyword.operator
-  match: \b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|let|extends|run|for|but|disj|disjoint|set|else|sum|open|check)\b|(=>|->|\||&|=|:|~|\.|\^|\*|<:|:>|\+\+|\+|-|!|&&|<=>|\|\|)
+  match: \b(not|and|or|implies|in|iff|all|some|one|lone|no|none|univ|iden|let|extends|run|for|but|disj|disjoint|set|else|sum|open|check|as|expect|exactly|steps|always|eventually|after|before|historically|once|until|since|releases|triggered)\b|(=>|->|\||&|=|:|~|\.|\^|\*|<:|:>|\+\+|\+|-|!|&&|<=>|\|\||')
 
 ...
